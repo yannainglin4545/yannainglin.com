@@ -40,7 +40,7 @@ const App: React.FC = () => {
               <ul className="flex space-x-6">
                 <li>
                   <a
-                    href="https://yannainglin.com/blog"
+                    href="https://blog.yannainglin.com"
                     className="text-xl font-semibold text-white bg-gray-900 hover:bg-blue-600 px-4 py-2 rounded-lg"
                   >
                     Visit My Blog
