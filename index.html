@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yan Naing Lin - Software Developer in Myanmar</title>
+    <link rel="icon" href="favicon.ico">
+    
+    <!-- Meta Description for SEO -->
+    <meta name="description" content="Yan Naing Lin is a Myanmar-based software developer specializing in mobile development, backend development, and database management. Discover his skills, projects, and expertise in both local and global software development.">
+    
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="ရန်နိုင်လင်း, Yan Naing Lin, software developer in Myanmar, mobile development, backend development, web development, database management, Myanmar developer, Myanmar software engineer, Myanmar IT">
+    
+    <!-- Meta Author -->
+    <meta name="author" content="Yan Naing Lin">
+
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Include Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
+    <style>
+        /* Custom styles for subtle animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(10px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+
+    <script>
+        // JavaScript to add the fade-in effect when elements enter the viewport
+        document.addEventListener('DOMContentLoaded', function () {
+            const elements = document.querySelectorAll('.fade-in');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            elements.forEach(element => {
+                observer.observe(element);
+            });
+        });
+    </script>
+
+    <!-- Expanded Schema.org Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Yan Naing Lin, ရန်နိုင်လင်း",
+        "jobTitle": "Software Developer",
+        "url": "https://yannainglin.com",
+        "email": "yannainglin4545@gmail.com",
+        "sameAs": [
+            "https://github.com/yannainglin4545"
+        ],
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Yangon University"
+        },
+        "knowsAbout": ["Mobile Development", "Backend Development", "Database Management", "Web Development", "Software Engineering", "Python", "Java", "Flutter", "Myanmar Software Development"]
+    }
+    </script>
+
+</head>
+<body class="bg-gray-100 text-gray-900 antialiased leading-relaxed">
+
+    <!-- Main Content Layout -->
+    <div class="container mx-auto px-4 py-16 flex flex-col items-center">
+
+        <!-- Profile Section Centered -->
+        <aside class="w-full mb-8 text-center">
+            <div class="fade-in">
+                <img src="profile.png" alt="Yan Naing Lin - Myanmar software developer profile" class="mx-auto w-32 h-32 sm:w-48 sm:h-48 rounded-full shadow-lg border border-gray-300 mb-4">
+                <h1 class="text-2xl sm:text-3xl font-bold mb-2">Yan Naing Lin</h1>
+                <p class="text-base sm:text-lg font-light mb-2">Myanmar-Based Software Developer</p>
+                <div class="container mx-auto px-4 flex justify-center">
+                    <ul class="flex space-x-6">
+                        <li><a href="https://yannainglin.com/blog/" class="text-xl font-semibold text-white bg-gray-900 hover:bg-blue-600 px-4 py-2 rounded-lg">Visit My Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Content Sections -->
+        <main class="w-full md:w-3/4 text-center">
+            <!-- Education Section -->
+            <section id="education" class="py-8 mb-16 fade-in">
+                <h2 class="text-xl sm:text-2xl font-semibold mb-4">Education</h2>
+                <ul class="list-none space-y-4">
+                    <li class="flex items-center justify-center">
+                        <i class="fas fa-graduation-cap text-xl sm:text-2xl mr-4"></i>
+                        <span class="text-lg sm:text-xl font-medium">BSc (Physics) - Yangon University</span>
+                    </li>
+                    <li class="flex items-center justify-center">
+                        <i class="fas fa-university text-xl sm:text-2xl mr-4"></i>
+                        <span class="text-lg sm:text-xl font-medium">Diploma in Computer Science (YU)</span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="py-8 mb-16 fade-in">
+                <h2 class="text-xl sm:text-2xl font-semibold mb-4">Skills</h2>
+                <ul class="list-none space-y-4">
+                    <li class="flex items-center justify-center">
+                        <i class="fas fa-mobile-alt text-xl sm:text-2xl mr-4"></i>
+                        <span class="text-lg sm:text-xl font-medium">Mobile Development (Flutter, Android)</span>
+                    </li>
+                    <li class="flex items-center justify-center">
+                        <i class="fas fa-server text-xl sm:text-2xl mr-4"></i>
+                        <span class="text-lg sm:text-xl font-medium">Backend Development (Node.js, Django)</span>
+                    </li>
+                    <li class="flex items-center justify-center">
+                        <i class="fas fa-database text-xl sm:text-2xl mr-4"></i>
+                        <span class="text-lg sm:text-xl font-medium">Database Management (MySQL, PostgreSQL)</span>
+                    </li>
+                    <li class="flex items-center justify-center">
+                        <i class="fas fa-code text-xl sm:text-2xl mr-4"></i>
+                        <span class="text-lg sm:text-xl font-medium">Web Development (React, HTML5, CSS3)</span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="py-8 border-t border-gray-300 fade-in text-center">
+                <h2 class="text-xl sm:text-2xl font-semibold mb-4">Reach Me Via</h2>
+                <a href="mailto:yannainglin4545@gmail.com" class="text-lg sm:text-xl font-medium text-gray-900 hover:text-gray-700">
+                    <i class="fas fa-envelope"></i> yannainglin4545@gmail.com
+                </a>
+            </section>
+
+        </main>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Yan Naing Lin. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
