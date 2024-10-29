@@ -80,7 +80,7 @@ const App: React.FC = () => {
               </li>
               <li className="flex items-center justify-center">
                 <FontAwesomeIcon icon={faDatabase} className="text-xl sm:text-2xl mr-4" />
-                <span className="text-lg sm:text-xl font-medium">Database Management (MySQL, PostgreSQL)</span>
+                <span className="text-lg sm:text-xl font-medium">Database Management (SQL,No-SQL)</span>
               </li>
               <li className="flex items-center justify-center">
                 <FontAwesomeIcon icon={faCode} className="text-xl sm:text-2xl mr-4" />
