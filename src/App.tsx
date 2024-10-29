@@ -40,7 +40,7 @@ const App: React.FC = () => {
               <ul className="flex space-x-6">
                 <li>
                   <a
-                    href="https://blog.yannainglin.com"
+                    href="https://yannainglin.com/blog"
                     className="text-xl font-semibold text-white bg-gray-900 hover:bg-blue-600 px-4 py-2 rounded-lg"
                   >
                     Visit My Blog
@@ -58,7 +58,7 @@ const App: React.FC = () => {
             <ul className="list-none space-y-4">
               <li className="flex items-center justify-center">
                 <FontAwesomeIcon icon={faGraduationCap} className="text-xl sm:text-2xl mr-4" />
-                <span className="text-lg sm:text-xl font-medium">BSc (Physics) - Yangon University</span>
+                <span className="text-lg sm:text-xl font-medium">BSc (Physics) - Bago University</span>
               </li>
               <li className="flex items-center justify-center">
                 <FontAwesomeIcon icon={faUniversity} className="text-xl sm:text-2xl mr-4" />
