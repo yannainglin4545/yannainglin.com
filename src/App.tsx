@@ -27,7 +27,7 @@ const App: React.FC = () => {
     <div className="bg-gray-100 text-gray-900 antialiased leading-relaxed">
       <div className="container mx-auto px-4 py-16 flex flex-col items-center">
         
-        <aside className="w-full mb-8 text-center">
+        <aside className="w-full mb-4 text-center">
           <div className="fade-in">
             <img
               src="profile.png"
@@ -53,7 +53,7 @@ const App: React.FC = () => {
 
         <main className="w-full md:w-3/4 text-center">
           
-          <section id="education" className="py-8 mb-16 fade-in">
+          <section id="education" className="py-8 mb-4 fade-in">
             <h2 className="text-xl sm:text-2xl font-semibold mb-4">Education</h2>
             <ul className="list-none space-y-4">
               <li className="flex items-center justify-center">
@@ -67,16 +67,16 @@ const App: React.FC = () => {
             </ul>
           </section>
 
-          <section id="skills" className="py-8 mb-16 fade-in">
+          <section id="skills" className="py-8 mb-4 fade-in">
             <h2 className="text-xl sm:text-2xl font-semibold mb-4">Skills</h2>
             <ul className="list-none space-y-4">
               <li className="flex items-center justify-center">
                 <FontAwesomeIcon icon={faMobileAlt} className="text-xl sm:text-2xl mr-4" />
-                <span className="text-lg sm:text-xl font-medium">Mobile Development (Flutter, Android)</span>
+                <span className="text-lg sm:text-xl font-medium">Mobile Development (Flutter, Android, iOS)</span>
               </li>
               <li className="flex items-center justify-center">
                 <FontAwesomeIcon icon={faServer} className="text-xl sm:text-2xl mr-4" />
-                <span className="text-lg sm:text-xl font-medium">Backend Development (Node.js, Django)</span>
+                <span className="text-lg sm:text-xl font-medium">Backend Development (Node.js)</span>
               </li>
               <li className="flex items-center justify-center">
                 <FontAwesomeIcon icon={faDatabase} className="text-xl sm:text-2xl mr-4" />
@@ -104,7 +104,7 @@ const App: React.FC = () => {
 
       <footer className="bg-gray-900 text-white py-6">
         <div className="container mx-auto px-4 text-center">
-          <p>&copy; 2024 Yan Naing Lin. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Yan Naing Lin. All rights reserved.</p>
         </div>
       </footer>
     </div>
