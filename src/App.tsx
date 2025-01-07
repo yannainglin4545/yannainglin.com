@@ -62,7 +62,7 @@ const App: React.FC = () => {
               </li>
               <li className="flex items-center justify-center">
                 <FontAwesomeIcon icon={faUniversity} className="text-xl sm:text-2xl mr-4" />
-                <span className="text-lg sm:text-xl font-medium">Diploma in Computer Science (YU)</span>
+                <span className="text-lg sm:text-xl font-medium">Postgraduate Diploma in Computer Science - Yangon University</span>
               </li>
             </ul>
           </section>
