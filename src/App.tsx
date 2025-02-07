@@ -1,7 +1,7 @@
 // src/App.tsx
 import React, { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGraduationCap, faUniversity, faMobileAlt, faServer, faDatabase, faCode, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faGraduationCap, faMobileAlt, faServer, faDatabase, faCode, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "./index.css";
 
 const App: React.FC = () => {
@@ -30,7 +30,7 @@ const App: React.FC = () => {
         <aside className="w-full mb-4 text-center">
           <div className="fade-in">
             <img
-              src="profile.png"
+              src="profile.webp"
               alt="Yan Naing Lin - Myanmar software developer profile"
               className="mx-auto w-32 h-32 sm:w-48 sm:h-48 rounded-full shadow-lg border border-gray-300 mb-4"
             />
