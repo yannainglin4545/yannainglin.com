@@ -31,11 +31,11 @@ const App: React.FC = () => {
           <div className="fade-in">
             <img
               src="profile.webp"
-              alt="Yan Naing Lin - Myanmar software developer profile"
+              alt="Yan Naing Lin - Expert Software Developer in Myanmar specializing in Web, Mobile, and Backend Development"
               className="mx-auto w-32 h-32 sm:w-48 sm:h-48 rounded-full shadow-lg border border-gray-300 mb-4"
             />
-            <h1 className="text-2xl sm:text-3xl font-bold mb-2">Yan Naing Lin</h1>
-            <p className="text-base sm:text-lg font-light mb-2">Myanmar-Based Software Developer</p>
+            <h1 className="text-2xl sm:text-3xl font-bold mb-2">Yan Naing Lin - Software Developer in Myanmar</h1>
+            <h2 className="text-lg sm:text-xl font-light mb-2">Expert in Web, Mobile & Backend Development</h2>
             <div className="container mx-auto px-4 flex justify-center">
               <ul className="flex space-x-6">
                 <li>
