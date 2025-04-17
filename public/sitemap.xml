@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://yannainglin.com/</loc>
+    <lastmod>2025-04-17</lastmod>
+    <priority>1.0</priority>
+  </url>
+    <url>
+    <loc>https://blog.yannainglin.com/</loc>
+    <lastmod>2025-04-17</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://yannainglin.com/#education</loc>
+    <lastmod>2025-04-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yannainglin.com/#skills</loc>
+    <lastmod>2025-04-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yannainglin.com/#contact</loc>
+    <lastmod>2025-04-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+</urlset>
