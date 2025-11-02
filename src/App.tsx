@@ -53,19 +53,26 @@ const App: React.FC = () => {
 
         <main className="w-full md:w-3/4 text-center">
           
-          <section id="education" className="py-8 mb-4 fade-in">
-            <h2 className="text-xl sm:text-2xl font-semibold mb-4">Education</h2>
-            <ul className="list-none space-y-4">
-              <li className="flex items-center justify-center">
-                <FontAwesomeIcon icon={faGraduationCap} className="text-xl sm:text-2xl mr-4" />
-                <span className="text-lg sm:text-xl font-medium">BSc (Physics) - Bago University</span>
-              </li>
-              <li className="flex items-center justify-center">
-                <FontAwesomeIcon icon={faGraduationCap} className="text-xl sm:text-2xl mr-4" />
-                <span className="text-lg sm:text-xl font-medium">Postgraduate Diploma in Computer Science - Yangon University</span>
-              </li>
-            </ul>
-          </section>
+        <section id="education" className="py-8 mb-4 fade-in">
+          <h2 className="text-xl sm:text-2xl font-semibold mb-4">Education</h2>
+          <ul className="list-none space-y-4">
+            <li className="flex items-center justify-center">
+              <FontAwesomeIcon icon={faGraduationCap} className="text-xl sm:text-2xl mr-4" />
+              <span className="text-lg sm:text-xl font-medium">
+                Master of Business Administration (MBA) - European International University (Online)
+              </span>
+            </li>
+            <li className="flex items-center justify-center">
+              <FontAwesomeIcon icon={faGraduationCap} className="text-xl sm:text-2xl mr-4" />
+              <span className="text-lg sm:text-xl font-medium">Postgraduate Diploma in Computer Science - Yangon University</span>
+            </li>
+            <li className="flex items-center justify-center">
+              <FontAwesomeIcon icon={faGraduationCap} className="text-xl sm:text-2xl mr-4" />
+              <span className="text-lg sm:text-xl font-medium">BSc (Physics) - Bago University</span>
+            </li>
+          </ul>
+        </section>
+
 
           <section id="skills" className="py-8 mb-4 fade-in">
             <h2 className="text-xl sm:text-2xl font-semibold mb-4">Skills</h2>
