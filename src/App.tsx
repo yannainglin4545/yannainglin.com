@@ -59,7 +59,7 @@ const App: React.FC = () => {
             <li className="flex items-center justify-center">
               <FontAwesomeIcon icon={faGraduationCap} className="text-xl sm:text-2xl mr-4" />
               <span className="text-lg sm:text-xl font-medium">
-                Master of Business Administration (MBA) - European International University (Online)
+                Master of Business Administration (MBA) - European International University
               </span>
             </li>
             <li className="flex items-center justify-center">
