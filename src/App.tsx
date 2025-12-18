@@ -11,6 +11,31 @@ import {
 import "./index.css";
 
 const App: React.FC = () => {
+  const books = [
+    {
+      slug: "csbookvol1",
+      title: "Vol 1: Computer Systems",
+      downloadUrl: "https://files.yannainglin.com/csbookvol1.pdf",
+      coverSrc: "/csbook1cover.webp",
+    },{
+      slug: "csbookvol2",
+      title: "Vol 2: The Logic and Data",
+      downloadUrl: "https://files.yannainglin.com/csbookvol2.pdf",
+      coverSrc: "/csbook2cover.webp",
+    },{
+      slug: "csbookvol3",
+      title: "Vol 3: The Math of Computing",
+      downloadUrl: "https://files.yannainglin.com/csbookvol3.pdf",
+      coverSrc: "/csbook3cover.webp",
+    },{
+      slug: "csbookvol4",
+      title: "Vol 4: Practical Programming  ",
+      downloadUrl: "https://files.yannainglin.com/csbookvol4.pdf",
+      coverSrc: "/csbook4cover.webp",
+    },
+    
+  ];
+
   useEffect(() => {
     const elements = document.querySelectorAll(".fade-in");
     const observer = new IntersectionObserver(
@@ -37,7 +62,7 @@ const App: React.FC = () => {
             <img
               src="profile.webp"
               alt="Yan Naing Lin - Expert Software Engineer in Myanmar specializing in Web, Mobile, and Backend Development"
-              className="mx-auto w-28 h-28 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full shadow-lg border border-gray-300 mb-4 object-cover"
+              className="mx-auto w-24 h-24 sm:w-30 sm:h-30 md:w-30 md:h-30 rounded-full shadow-lg border border-gray-300 mb-4 object-cover"
             />
             <h1 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2 px-2">
               Yan Naing Lin - Software Engineer in Myanmar
@@ -53,6 +78,33 @@ const App: React.FC = () => {
               >
                 Visit My Blog
               </a>
+            </div>
+
+            {/* Books Section */}
+            <div className="mt-8 fade-in">
+              <h3 className="text-lg sm:text-xl font-semibold mb-4">My Books(Computer Science စာအုပ်များ)</h3>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+                {books.map((book) => (
+                  <div key={book.slug} className="flex flex-col items-center">
+                    <a href={book.downloadUrl} target="_blank" rel="noopener noreferrer">
+                      <img
+                        src={book.coverSrc}
+                        alt={book.title}
+                        className="w-32 h-44 sm:w-40 sm:h-56 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-200 border border-gray-300"
+                      />
+                    </a>
+                    <p className="mt-2 text-sm sm:text-base font-medium text-center h-12 line-clamp-2">{book.title}</p>
+                    <a
+                      href={book.downloadUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-1 text-sm sm:text-base text-blue-600 hover:text-blue-800 font-medium"
+                    >
+                      Download
+                    </a>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </aside>
