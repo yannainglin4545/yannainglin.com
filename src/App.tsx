@@ -15,22 +15,22 @@ const App: React.FC = () => {
     {
       slug: "csbookvol1",
       title: "Vol 1: Computer Systems",
-      downloadUrl: "https://files.yannainglin.com/csbookvol1.pdf",
+      downloadUrl: "https://filesdownload.yannainglin.com/The Future Coder Series Vol1.pdf",
       coverSrc: "/csbook1cover.webp",
     },{
       slug: "csbookvol2",
       title: "Vol 2: The Logic and Data",
-      downloadUrl: "https://files.yannainglin.com/csbookvol2.pdf",
+      downloadUrl: "https://filesdownload.yannainglin.com/The Future Coder Series Vol2.pdf",
       coverSrc: "/csbook2cover.webp",
     },{
       slug: "csbookvol3",
       title: "Vol 3: The Math of Computing",
-      downloadUrl: "https://files.yannainglin.com/csbookvol3.pdf",
+      downloadUrl: "https://filesdownload.yannainglin.com/The Future Coder Series Vol3.pdf",
       coverSrc: "/csbook3cover.webp",
     },{
       slug: "csbookvol4",
       title: "Vol 4: Practical Programming  ",
-      downloadUrl: "https://files.yannainglin.com/csbookvol4.pdf",
+      downloadUrl: "https://filesdownload.yannainglin.com/The Future Coder Series Vol4.pdf",
       coverSrc: "/csbook4cover.webp",
     },
     
