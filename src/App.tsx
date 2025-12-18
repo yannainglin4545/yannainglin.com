@@ -110,6 +110,7 @@ const App: React.FC = () => {
                         className="w-32 h-44 sm:w-40 sm:h-56 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-200 border border-gray-300"
                         itemProp="image"
                         fetchPriority={index === 0 ? "high" : "low"}
+                        decoding="async"
                       />
                     </a>
                     <h4 className="mt-2 text-sm sm:text-base font-medium text-center h-12 line-clamp-2" itemProp="name">{book.title}</h4>
