@@ -81,31 +81,53 @@ const App: React.FC = () => {
             </div>
 
             {/* Books Section */}
-            <div className="mt-8 fade-in">
-              <h3 className="text-lg sm:text-xl font-semibold mb-4">My Books(Computer Science စာအုပ်များ)</h3>
+            <section className="mt-8 fade-in" itemScope itemType="https://schema.org/ItemList">
+              <h3 className="text-lg sm:text-xl font-semibold mb-4" itemProp="name">My Books(Computer Science စာအုပ်များ)</h3>
+              <meta itemProp="description" content="Free Computer Science books in Myanmar language" />
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-                {books.map((book) => (
-                  <div key={book.slug} className="flex flex-col items-center">
-                    <a href={book.downloadUrl} target="_blank" rel="noopener noreferrer">
+                {books.map((book, index) => (
+                  <article 
+                    key={book.slug} 
+                    className="flex flex-col items-center"
+                    itemScope 
+                    itemType="https://schema.org/Book"
+                    itemProp="itemListElement"
+                  >
+                    <meta itemProp="position" content={String(index + 1)} />
+                    <meta itemProp="inLanguage" content="my" />
+                    <meta itemProp="bookFormat" content="EBook" />
+                    <meta itemProp="isAccessibleForFree" content="true" />
+                    <a 
+                      href={book.downloadUrl} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      itemProp="url"
+                      aria-label={`Download ${book.title}`}
+                    >
                       <img
                         src={book.coverSrc}
-                        alt={book.title}
+                        alt={`${book.title} - Free Computer Science book cover`}
                         className="w-32 h-44 sm:w-40 sm:h-56 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-200 border border-gray-300"
+                        itemProp="image"
+                        loading="lazy"
                       />
                     </a>
-                    <p className="mt-2 text-sm sm:text-base font-medium text-center h-12 line-clamp-2">{book.title}</p>
+                    <h4 className="mt-2 text-sm sm:text-base font-medium text-center h-12 line-clamp-2" itemProp="name">{book.title}</h4>
+                    <meta itemProp="author" content="Yan Naing Lin" />
                     <a
                       href={book.downloadUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="mt-1 text-sm sm:text-base text-blue-600 hover:text-blue-800 font-medium"
+                      aria-label={`Download ${book.title} PDF`}
+                      download
                     >
                       Download
                     </a>
-                  </div>
+                  </article>
                 ))}
               </div>
-            </div>
+            </section>
           </div>
         </aside>
 
