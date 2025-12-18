@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
+  <url>
+    <loc>https://yannainglin.com</loc>
+    <lastmod>2025-12-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://yannainglin.com/profile.webp</image:loc>
+      <image:title>Yan Naing Lin - Software Developer Profile</image:title>
+    </image:image>
+    <mobile:mobile/>
+  </url>
+  <url>
+    <loc>https://blog.yannainglin.com</loc>
+    <lastmod>2025-12-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <mobile:mobile/>
+  </url>
+  <url>
+    <loc>https://filesdownload.yannainglin.com/The Future Coder Series Vol1.pdf</loc>
+    <lastmod>2025-12-17</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://yannainglin.com/csbook1cover.webp</image:loc>
+      <image:title>Vol 1: Computer Systems - Computer Science Book</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://filesdownload.yannainglin.com/The Future Coder Series Vol2.pdf</loc>
+    <lastmod>2025-12-17</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://yannainglin.com/csbook2cover.webp</image:loc>
+      <image:title>Vol 2: The Logic and Data - Computer Science Book</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://filesdownload.yannainglin.com/The Future Coder Series Vol3.pdf</loc>
+    <lastmod>2025-12-17</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://yannainglin.com/csbook3cover.webp</image:loc>
+      <image:title>Vol 3: The Math of Computing - Computer Science Book</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://filesdownload.yannainglin.com/The Future Coder Series Vol4.pdf</loc>
+    <lastmod>2025-12-17</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://yannainglin.com/csbook4cover.webp</image:loc>
+      <image:title>Vol 4: Practical Programming - Computer Science Book</image:title>
+    </image:image>
+  </url>
+</urlset>
